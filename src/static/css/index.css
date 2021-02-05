@@ -1,0 +1,77 @@
+p{
+    margin: 0;
+    padding:0;
+}
+img{
+    max-width: 100%;
+}
+.page{
+    min-height: 100vh;
+}
+.header{
+    margin:0 auto; 
+}
+.wrap{
+    margin:0 5px;
+}
+.logo{
+    color: #ffffff;
+    font-size: 45px;
+    padding: 10px 5px;
+}
+
+.wrap .topic_list{
+    background: #ffffff;
+    padding:0 15px;
+}
+.indexNav{
+    margin-top: 10px;
+}
+.footer{
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.tagstyle{
+    margin: 0 10px;
+}
+.text-hidden{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.index-pagination{
+    display: flex;
+    background: #ffffff;
+    padding: 10px 5px;
+    border-top: 1px solid #f0f0f0;
+    justify-content: center;
+}
+.card{
+    margin-top: 10px;
+}
+.userPage .ant-card{
+    margin-top: 10px;
+}
+.aboutPage{
+    margin-top: 10px;
+}
+
+.user_detail{
+    text-align: center;
+}
+
+
+@media all and (min-width:992px){
+    .wrap{
+        margin:0 auto;
+        width: 980px;
+    }  
+    .header{
+        width: 980px;
+    }
+    .wrap .topic_list{
+        background: #ffffff;
+        padding:0 20px;
+    }
+}
